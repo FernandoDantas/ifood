@@ -3,7 +3,7 @@ package com.github.fernandodantas.ifood.cadastro;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "restaurante")
+@Table(name = "localizacao")
 public class Localizacao {
 
     @Id

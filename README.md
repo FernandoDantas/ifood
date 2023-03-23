@@ -9,7 +9,7 @@ mvn clean package -DskipTests
 ```
 
 ## Adicionar algumas extenções
-- mvn quarkus:add-extension -Dextensions="jdbc-postgres, hibernate-orm-panache, resteasy-jsonb, smallrye-openapi, hibernate-validator"
+- mvn quarkus:add-extension -Dextensions="jdbc-postgres, hibernate-orm-panache, resteasy-reactive-jackson, smallrye-openapi, hibernate-validator"
 > **_OBS:_** O quarkus quando ao criar o projeto inicial ele ja vem com quarkus-resteasy-reactive. Para não tomar erro ao executar o projeto
 pode retirar do comando acima o trecho resteasy-jsonb ou ir no pom e retirar o trecho de dependency do quarkus-resteasy-reactive.
 
